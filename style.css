@@ -220,3 +220,32 @@ small{
     width: 100%;
     border-radius: 10px;
 }
+footer{
+    height: 430px;
+    background-image: url(./asset/image/footer-bg.png),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about{
+    max-width: 230px;
+}
+.about>img{
+    margin-bottom: 10px;
+}
+.footer-p{
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.social-icon{
+    display: flex;
+    justify-content: space-around;
+}
+.useful-info>h3{
+    margin-bottom: 40px;
+}
+.useful-info>p{
+    margin-bottom: 10px;
+}
