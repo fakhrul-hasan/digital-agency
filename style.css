@@ -204,3 +204,19 @@ small{
     max-width: 660px;
     margin: 0 auto;
 }
+.blog{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.blog-section{
+    max-width: 350px;
+    height: 430px;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 10px;
+}
+.blog-section>img{
+    height: 240px;
+    width: 100%;
+    border-radius: 10px;
+}
